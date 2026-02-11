@@ -23,5 +23,5 @@ Das WechselWiki basiert auf TiddlyWiki 5.
 
 ## Rechte 
 
-Siehe [Lizenz](https://github.com/3113br4/WechselWiki/blob/main/LICENSE). 
+Siehe [Lizenz](https://github.com/3113nbr4/WechselWiki/blob/main/LICENSE). 
 
