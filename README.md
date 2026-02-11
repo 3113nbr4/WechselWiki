@@ -14,7 +14,7 @@ Das Repository dient auch als Anlaufpunkt für die WechselWiki-Community, um Fra
 
 ## Aktueller Status
 
-Über den inhaltlichen Stand des WechselWikis informiert der [WechselWiki Newsletter](https://buttondown.com/wechselwiki).
+Über den inhaltlichen Stand des WechselWikis informieren die jeweilige index.html im Ordner /docs und der <a href="https://buttondown.com/wechselwiki" target="_blank">WechselWiki Newsletter</a>.
 
 
 ## Abhängigkeiten
