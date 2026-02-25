@@ -6,7 +6,7 @@ Das WechselWiki ist ein Wissensspeicher zum Thema Wechseljahre/Menopause, der be
 
 ## Repository
 
-Dieses Repository dokumentiert monatlich alle im Wiki enthaltenen vollständigen Einträge als Liste in einer statischen HTML-Datei.
+Dieses Repository hostet das Projekt und die dazugehörige Website. 
 
 ## Community
 
