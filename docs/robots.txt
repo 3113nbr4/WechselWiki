@@ -92,8 +92,6 @@ DisallowAITraining: /
 # are still experimental and may not be supported
 # by all AI crawlers.
 User-Agent: *
-Disallow: /tiddlywikicore-5.3.8.js
-Disallow: /static.css
 DisallowAITraining: /
 Content-Usage: ai=n
 Content-Signal: search=yes, ai-input=no, ai-train=no
