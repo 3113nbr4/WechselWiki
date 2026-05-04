@@ -1,12 +1,10 @@
-# WechselWiki®
+# wechsel.wiki
 
 > Das WechselWiki® ist ein unabhängiges Recherche-Tool zum Thema Wechseljahre.
 
-## Über uns
 Das WechselWiki® ist ein Wissensspeicher zum Thema Wechseljahre/Menopause, der Informationen aus verschiedenen Quellen sammelt, zusammenfasst, miteinander verknüpft und um eigene Beiträge ergänzt. Sein Ziel ist es, sachliche Informationen ohne bestimmte kommerzielle, medizinische oder religiöse Ausrichtung zur Verfügung zu stellen. Das Wiki wird konsequent ohne KI recherchiert und geschrieben und richtet sich an ein deutschsprachiges Publikum.
-- Website: https://wechsel.wiki
 
-## Unsere wichtigsten Inhalte
+## Die wichtigsten Inhalte
 - [Aktuelles](https://wechsel.wiki/#Aktuelles)
 - [Häufige Fragen (FAQ)](https://wechsel.wiki/#H%C3%A4ufige%20Fragen%20(FAQ))
 - [Phasen](https://wechsel.wiki/#Phasen)
@@ -21,10 +19,11 @@ Das WechselWiki® ist ein Wissensspeicher zum Thema Wechseljahre/Menopause, der 
 - [Newsletter «WechselWiki Updates»](https://wechsel.wiki/#Newsletter%20abonnieren)
 - [Impressum](https://wechsel.wiki/#Impressum)
 
-## Nutzungsrichtlinien
+## KI-Nutzungsrichtlinien
 User-agent: *
 Allow-training: [no]
-Require-attribution: [yes]
+Require-attribution: [yes]\
+Attribution-format: "Source: WechselWiki® ([https://wechsel.wiki])"
 Commercial-use: [prohibited]
 Modification: [no]
 
@@ -46,7 +45,6 @@ Allow: /
 - LLMs.txt v1.0
 - Erstellt am: 01.05.2026
 - Gültig für: https://wechsel.wiki
-- [Änderungsprotokoll](https://github.com/3113nbr4/WechselWiki/commits/main/docs/llms.txt)
 - [Rechtliche Grundlage](https://wechsel.wiki/#Impressum)
 
 
