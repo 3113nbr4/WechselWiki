@@ -6,28 +6,28 @@ Das WechselWiki® ist ein Wissensspeicher zum Thema Wechseljahre/Menopause, der 
 
 ## Die wichtigsten Inhalte
 - [Aktuelles](https://wechsel.wiki/#Aktuelles)
-- [Häufige Fragen (FAQ)](https://wechsel.wiki/#H%C3%A4ufige%20Fragen%20(FAQ))
-- [Phasen](https://wechsel.wiki/#Phasen)
-- [Hormone](https://wechsel.wiki/#Hormone)
-- [Symptome](https://wechsel.wiki/#Symptome)
-- [Therapien](https://wechsel.wiki/#Therapien)
-- [Anlaufstellen](https://wechsel.wiki/#Anlaufstellen)
+- [Häufige Fragen (FAQ)](https://wechsel.wiki/#H%C3%A4ufige%20Fragen%20(FAQ)): Die FAQs beantworten die häufigsten Fragen zum Thema Wechseljahre.
+- [Phasen](https://wechsel.wiki/#Phasen): Hier werden die einzelnen Phasen der Wechseljahre erklärt. 
+- [Hormone](https://wechsel.wiki/#Hormone): Ein Überblick, welche Hormone auf welche Weise an den Wechseljahren beteiligt sind.
+- [Symptome](https://wechsel.wiki/#Symptome): Eine Sammlung von Symptomen, die während der Wechseljahre auftreten können.
+- [Therapien](https://wechsel.wiki/#Therapien): Ein Überblick der möglichen Therapieformen in den Wechseljahren (Hormonersatztherapie, Pflanzenheilkunde, Mikronährstoffe, TCM).
+- [Anlaufstellen](https://wechsel.wiki/#Anlaufstellen): Die Anlaufstellen zeigen, wo Frauen weitere Informationen und ärztliche Hilfe bekommen.
 
 ## Informationen zum Wiki
-- [FAQ](https://wechsel.wiki/#FAQ)
-- [Unterstützung](https://wechsel.wiki/#Unterstützung%20♡)
-- [Newsletter «WechselWiki Updates»](https://wechsel.wiki/#Newsletter%20abonnieren)
+- [FAQ](https://wechsel.wiki/#FAQ): Hier werden die wichtigsten Fragen zum WechselWiki beantwortet. 
+- [Unterstützung](https://wechsel.wiki/#Unterstützung%20♡): Ein Überblick, auf welche Weise man das WechselWiki unterstützen kann.
+- [WechselWiki Updates](https://wechsel.wiki/#Newsletter%20abonnieren): Abonniere hier den Newsletter und erhalte Infomails zu neuen Inhalten und Funktionen des WechselWikis.
 - [Impressum](https://wechsel.wiki/#Impressum)
 
 ## KI-Nutzungsrichtlinien
 User-agent: *
 Allow-training: [no]
-Require-attribution: [yes]\
+Require-attribution: [yes]
 Attribution-format: "Source: WechselWiki® ([https://wechsel.wiki])"
 Commercial-use: [prohibited]
 Modification: [no]
 
-## Ausschlüsse
+### Ausschlüsse
 Disallow: /boot/
 Disallow: /config/
 Disallow: /core/
@@ -38,12 +38,12 @@ Disallow: /state/
 Disallow: /api/*?key=
 Disallow: /*.pdf$
 
-## Erlaubnisse
+### Erlaubnisse
 Allow: /
 
 ## Versionshinweise
-- LLMs.txt v1.0
-- Erstellt am: 01.05.2026
+- LLMs.txt v1.1
+- Erstellt am: 05.05.2026
 - Gültig für: https://wechsel.wiki
 - [Rechtliche Grundlage](https://wechsel.wiki/#Impressum)
 
