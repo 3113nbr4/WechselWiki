@@ -69,8 +69,9 @@ Error message and password prompt
 .tc-password-wrapper input {
 	width: 100%;
 }
-
-
+</style>
+</div>
+<style type="text/css">
 /*
 ** Start with the normalize CSS reset, and then belay some of its effects
 *//*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -350,11 +351,11 @@ summary {
 input[type="search"] {
 	outline-offset: initial;
 }button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
-	outline: 2px solid #5778d8;
+	outline: 2px solid #ff4d67;
 	outline-offset: -2px;
 	border-radius: 0.25em;
 }button:-moz-focusring, input:-moz-focusring, textarea:-moz-focusring, select:-moz-focusring {
-	outline: 2px solid #5778d8;
+	outline: 2px solid #ff4d67;
 	outline-offset: -2px;
 	border-radius: 0.25em;
 }/*
@@ -375,7 +376,7 @@ html button {
 }/*
 ** Basic element styles
 */html, body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", sans-serif, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+	font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", sans-serif, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 	text-rendering: optimizeLegibility; /* Enables kerning and ligatures etc. */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -410,15 +411,15 @@ html button {
 	border: 1px solid #cccccc;
 	padding: 0 3px 2px;
 	border-radius: 3px;
-	font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+	font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }code {
-	color: #dd1144;
+	color: #000000;
 	background-color: #f7f7f9;
 	border: 1px solid #e1e1e8;
 	white-space: pre-wrap;
 	padding: 0 3px 2px;
 	border-radius: 3px;
-	font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+	font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }blockquote {
 	border-left: 5px solid #bbbbbb;
 	margin-left: 25px;
@@ -602,7 +603,7 @@ Tiddler frame in story river
 a.tc-tiddlylink {
 	text-decoration: none;
 	font-weight: 500;
-	color: #5778d8;
+	color: #ff4d67;
 	-webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 	-webkit-touch-callout: none; /* Prevents long presses from bringing up a link preview */
 }.tc-sidebar-lists a.tc-tiddlylink {
@@ -621,13 +622,13 @@ a.tc-tiddlylink:hover {
 	font-style: italic;
 }a.tc-tiddlylink-external {
 	text-decoration: underline;
-	color: #0000ee;
+	color: #ff4d67;
 	background-color: inherit;
 }a.tc-tiddlylink-external:visited {
-	color: #0000aa;
+	color: #e4677a;
 	background-color: inherit;
 }a.tc-tiddlylink-external:hover {
-	color: inherit;
+	color: #ff4d67;
 	background-color: inherit;
 }.tc-drop-down a.tc-tiddlylink:hover {
 	color: #ffffff;
@@ -775,7 +776,7 @@ a.tc-tiddlylink:hover {
 	vertical-align: middle;
 	fill: #ffffff;
 }.tc-primary-btn {
-	background: #5778d8;
+	background: #ff4d67;
 }.tc-sidebar-lists input {
 	color: #333333;
 }.tc-sidebar-lists button {
@@ -848,7 +849,7 @@ a.tc-tiddlylink:hover {
 	white-space: nowrap;
 	vertical-align: baseline;
 }.tc-block-tags-dropdown > .tc-btn-invisible:hover {
-	background-color: #5778d8;
+	background-color: #ff4d67;
 }button.tc-tag-label, span.tc-tag-label {
 	display: inline-block;
 	padding: 0.16em 0.7em;
@@ -858,7 +859,7 @@ a.tc-tiddlylink:hover {
 	color: #ffffff;
 	white-space: break-spaces;
 	vertical-align: baseline;
-	background-color: #eecc66;
+	background-color: #ff667d;
 	border-radius: 1em;
 }.tc-sidebar-scrollable .tc-tag-label {
 	text-shadow: none;
@@ -884,7 +885,7 @@ a.tc-tiddlylink:hover {
 	outline: none;
 }.tc-tag-button-selected,
 .tc-list-item-selected a.tc-tiddlylink, a.tc-list-item-selected {
-	background-color: #5778d8;
+	background-color: #ff4d67;
 	color: #ffffff;
 }/*
 ** Page layout
@@ -1061,7 +1062,7 @@ a.tc-tiddlylink:hover {
 }.tc-tiddler-lazy-loading {
 	height: 4px;
 	width: 100%;
-	background: no-repeat linear-gradient(#ffffff 0 0),no-repeat linear-gradient(#ffffff 0 0),#5778d8;
+	background: no-repeat linear-gradient(#ffffff 0 0),no-repeat linear-gradient(#ffffff 0 0),#ff4d67;
 	background-size: 60% 100%;
 	animation: animation-loading-progress 3s infinite;
 }@keyframes animation-loading-progress {
@@ -1203,7 +1204,7 @@ a.tc-tiddlylink:hover {
 }.tc-editor-toolbar button.tc-text-editor-toolbar-item-start-group {
 	margin-left: 11px;
 }.tc-editor-toolbar button.tc-selected {
-	background-color: #5778d8;
+	background-color: #ff4d67;
 }.tc-editor-toolbar button svg {
 	width: 1.6em;
 	height: 1.2em;
@@ -1452,7 +1453,7 @@ a.tc-tiddlylink:hover {
 	color: #333333;
 }.tc-drop-down a:hover, .tc-drop-down button:hover, .tc-drop-down .tc-file-input-wrapper:hover button {
 	color: #ffffff;
-	background-color: #5778d8;
+	background-color: #ff4d67;
 	text-decoration: none;
 }.tc-drop-down .tc-tab-buttons button {
 	background-color: #ececec;
@@ -1493,7 +1494,7 @@ a.tc-tiddlylink:hover {
 	color: #bbbbbb;
 }.tc-block-dropdown a.tc-tiddlylink:hover {
 	color: #ffffff;
-	background-color: #5778d8;
+	background-color: #ff4d67;
 	text-decoration: none;
 }.tc-search-results {
 	padding: 0 7px 0 7px;
@@ -1518,9 +1519,9 @@ a.tc-tiddlylink:hover {
 	vertical-align: middle;
 }.tc-image-chooser a:hover,
 .tc-colour-chooser a:hover {
-	background: #5778d8;
+	background: #ff4d67;
 	padding: 0px;
-	border: 3px solid #5778d8;
+	border: 3px solid #ff4d67;
 }.tc-image-chooser a svg,
 .tc-image-chooser a img {
 	display: inline-block;
@@ -1744,7 +1745,7 @@ a.tc-tiddlylink:hover {
 	fill: #ffffff;
 	background-color: #333333;
 }.tc-manager-list-item-heading:hover {
-	background: #5778d8;
+	background: #ff4d67;
 	color: #ffffff;
 }.tc-manager-list-item-content {
 	display: flex;
@@ -1885,7 +1886,7 @@ a.tc-tiddlylink:hover {
 	padding: 4px;
 	align-items: center;
 }.tc-sidebar-lists a.tc-tiddlylink.tc-plugin-info {
-	color: #5778d8;
+	color: #ff4d67;
 }.tc-plugin-info-sub-plugins .tc-plugin-info {
 	margin: 0.5em;
 	background: #ffffff;
@@ -1908,7 +1909,7 @@ a.tc-tiddlylink:hover {
 	background: repeating-linear-gradient(45deg, #aa0, #aa0 10px, #888 10px, #888 20px);
 }a.tc-tiddlylink.tc-plugin-info:hover {
 	text-decoration: none;
-	background-color: #5778d8;
+	background-color: #ff4d67;
 	color: #ffffff;
 	fill: #333333;
 }a.tc-tiddlylink.tc-plugin-info:hover > .tc-plugin-info-chunk > svg {
@@ -2559,10 +2560,10 @@ Show the title for small screen
  font-weight:400;
 /* color:#00008B;*/ /*darkblue*/
  text-decoration:none;
- color: #5778d8; 	
+ color: #ff4d67; 	
 }.refcls{
 /* color:#00008B;*/
- color: #5778d8; 
+ color: #ff4d67; 
 /* text-transform: capitalize;*/
 }.ref-notfound{
 /*  color: #856404 !important;*/
@@ -5539,7 +5540,7 @@ mark.shiraz-highlight-pen {
 	white-space: pre-wrap;
 	padding: 0 3px 2px;
 	border-radius: 3px;
-	font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace
+	font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace
 }/* multicolumn layouts with fixed column number works on the whole tiddler */
 .multicol .tc-tiddler-body {
   column-width: 14em;
@@ -6018,7 +6019,7 @@ table thead .shiraz-dtable-header  th button {
 	overflow-y: auto;
 }.tc-consent-banner {
 	padding: 1em;
-	background: salmon;
+	background: #ff99a8;
 	color: #fff;
 	box-shadow: 0 0 20px rgba(0,0,0,.2);
 }.tc-consent-banner a.tc-tiddlylink-external {
@@ -6051,12 +6052,12 @@ table thead .shiraz-dtable-header  th button {
 	background: transparent;
 	font-weight: bold;
 }.tc-consent-button:hover {
-	color: salmon;
+	color: #ff3352;
 	border-color: #fff;
 	background: #fff;
 	opacity: .6;
 }.tc-consent-button-default {
-	color: salmon;
+	color: #ff4d67;
 	background: #fff;
 }.tc-blocked-embedded-content {
 	display: inline-block;
@@ -6084,178 +6085,80 @@ table thead .shiraz-dtable-header  th button {
     width: 80%;
     border: none;
 }
-.tc-sidebar-header {
-	text-shadow: 0 1px 0 #ffffff;
-}.tc-tiddler-info {
-	
--webkit-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
-	-moz-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
-		box-shadow: inset 1px 2px 3px rgba(0,0,0,0.1);
-
-}@media screen {
-	.tc-tiddler-frame {
-		
--webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-
-	}
-}@media (max-width: 959px) {
-	.tc-tiddler-frame {
-		
--webkit-box-shadow: none;
-	-moz-box-shadow: none;
-		box-shadow: none;
-
-	}
-}.tc-page-controls button svg, .tc-tiddler-controls button svg, .tc-topbar button svg {
-	
--webkit-transition: fill 150ms ease-in-out;
-	-moz-transition: fill 150ms ease-in-out;
-		transition: fill 150ms ease-in-out;
-
-}.tc-tiddler-controls button.tc-selected,
-.tc-page-controls button.tc-selected {
-	
--webkit-filter: drop-shadow(0px -1px 2px rgba(0,0,0,0.25));
-	-moz-filter: drop-shadow(0px -1px 2px rgba(0,0,0,0.25));
-		filter: drop-shadow(0px -1px 2px rgba(0,0,0,0.25));
-
-}.tc-tiddler-frame input.tc-edit-texteditor,
-.tc-tiddler-frame select.tc-edit-texteditor {
-	
--webkit-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-		box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-
-}.tc-edit-tags {
-	
--webkit-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-		box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.15);
-
-}.tc-tiddler-frame .tc-edit-tags input.tc-edit-texteditor {
-	
--webkit-box-shadow: none;
-	-moz-box-shadow: none;
-		box-shadow: none;
-
-	border: none;
-	outline: none;
-}textarea.tc-edit-texteditor {
-	font-family: ;
-}canvas.tc-edit-bitmapeditor  {
-	
--webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-
-}.tc-drop-down {
-	border-radius: 4px;
-	
--webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-
-}.tc-block-dropdown {
-	border-radius: 4px;
-	
--webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-	-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-
-}.tc-modal {
-	border-radius: 6px;
-	
--webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-		box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-
-}.tc-modal-footer {
-	border-radius: 0 0 6px 6px;
-	
--webkit-box-shadow: inset 0 1px 0 #fff;
-	-moz-box-shadow: inset 0 1px 0 #fff;
-		box-shadow: inset 0 1px 0 #fff;
-;
-}.tc-alert {
-	border-radius: 6px;
-	
--webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 3px 7px rgba(0,0,0,0.6);
-		box-shadow: 0 3px 7px rgba(0,0,0,0.6);
-
-}.tc-notification {
-	border-radius: 6px;
-	
--webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-		box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-
-	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
-}.tc-sidebar-lists .tc-tab-set .tc-tab-divider {
-	border-top: none;
-	height: 1px;
-	
-background-image: linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -o-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.0) 100%);
-
-}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button {
-	
-background-image: linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -o-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.1) 100%);
-
-}.tc-more-sidebar > .tc-tab-set > .tc-tab-buttons > button.tc-tab-selected {
-	
-background-image: linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -o-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.05) 100%);
-
-}.tc-message-box img {
-	
--webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-		box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-
-}.tc-plugin-info {
-	
--webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-		box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-
-}
 div.tc-tiddler-frame.activeTiddler {
   border-left: 3px solid #557AFF;
 }/* Text-Elemente
 ------------------------------------- */
-strong {
-font-weight: 560;
-}
 
+body {
+font-family: {{$:/themes/tiddlywiki/snowwhite/settings/fontfamily}};
+font-optical-sizing: auto;
+font-weight: 430;
+font-style: normal;
+} 
+h1,h2,h3,h4,h5,h6,h1.tc-site-title {
+color: #222 /*#182955*/;
+}
 h3 {
-color: #222;
+font-weight: 600;
+margin-top: 1.25em;
 font-size: 1.0em;
-/*font-weight: 560;*/
+/*
 letter-spacing: 0.015em;
 margin-top: 1.4em;
 border-bottom: 0.5px dotted #222; 
 padding-bottom: 3px;
-text-transform: uppercase;
+text-transform: uppercase; */
+}
+h4 {
+font-size: 1em;
+font-weight: 600;
+}
+strong {
+font-weight: 600;
+}
+em {
+/*color: #5778d8;*/
+font-family: "IBM Plex Sans", sans-serif;
+font-weight: 350;
+font-style: normal
+}
+a.tc-tiddlylink { 
+font-weight: 475; 
+}
+.tc-table-of-contents li a {
+  font-weight: 500;
 }
 
+
+/* Spenden-Button 
+------------------------------------- */
+.btn-round {
+border-radius: 50px;
+color: #fff;
+background-color: #ff4d67;
+padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+font-size: 0.875rem;
+text-decoration: none;
+display: block;
+text-align: center;
+margin: 15px auto 0 auto;
+width: auto; 
+}
+.btn-round:hover {
+background-color: #ff3352;
+}
+
+/* Aktiver Frame: Blue border 
+------------------------------------- */
+div.tc-tiddler-frame.activeTiddler {
+border-left: 3px solid #ff99a8!important;
+}
 
 /* Subscribe-Form: Hintergrund 
 ------------------------------------- */
 .embedded-subscribe-form {
-background-color: #f4f4f5
+background-color: #f4f4f5!important
 }
 
 /* Datum letzte Aktualisierung im Tiddler Inhalt im Story River verbergen
@@ -6322,4 +6225,5 @@ color: #333;
 [data-tags*="Eigene Erfahrung"].tc-tiddler-frame {
 border: 1px solid #d2c6de!important;
 }
+
 
