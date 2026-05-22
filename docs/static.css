@@ -6226,4 +6226,121 @@ color: #333;
 border: 1px solid #d2c6de!important;
 }
 
+/* ad-styles
+------------------------------------- */
+    .ads.tc-story-river {
+        padding: 0px 42px 42px 42px;
+    }
+    .ads {
+        display: flex; flex-flow: row wrap; justify-content: center; align-content: center; gap: 3.5em; color: #aaa
+    }
+    .ad {
+        border: 1px solid #ddd; text-align: center; background-color: #ddd; overflow: hidden
+    }
+    .ad:hover {
+        background-color: #ff4d67;
+    }
+    .medium_rect {
+         width: 300px; height: 250px; line-height: 250px; 
+    }
+    a.fill-div {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        color: #aaa
+    }
+    .anim_1 {
+        animation:             
+             stretch 6s ease infinite alternate;
+        border-radius: 0%;
+        background-color: #f4f4f4;
+        animation-timing-function: ease-out; 
+        animation-delay: 0;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+    .anim_2 {
+        animation: 
+             nudge 4s ease infinite alternate;
+        border-radius: 0%;
+        background-color: #f4f4f4;
+        animation-timing-function: ease-out; 
+        animation-delay: 0;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+    .anim_3 {
+        animation: 
+             rotate 6s ease infinite alternate;
+        border-radius: 0%;
+        background-color: #f4f4f4;
+        animation-timing-function: ease-out; 
+        animation-delay: 0;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
+    }
+    @keyframes pulse {
+        0%, 100% {
+            background-color: #f4f4f4;
+            color: #aaa
+        }
+        50% {
+            background-color: #f4f4f4;
+            color: #aaa
+            }
+        }
+    @keyframes nudge {
+      0%, 100% {
+        transform: translate(0, 0);
+      }
+      
+      50% {
+        transform: translate(15px, 10px); background-color: rgba(245, 245, 245, 1);
+      }
+      
+      80% {
+        transform: translate(-20px, 10px);
+      }
+    }
 
+    @keyframes rotate {
+      0%, 100% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+    }
+
+    @keyframes stretch {
+      0% {
+        transform: scale(.99);
+        border-radius: 100%;
+      }
+
+      100% {
+        transform: scale(1.0);
+      }
+    }
+    @media (max-width: 960px) {
+        .ads.tc-story-river {
+             padding: 42px 42px 42px 42px;
+        }
+        .tc-static-alert-inner {
+            padding: 0 2px 2px 15px;
+        }
+    }
+    @media (max-width: 600px) {
+      .ads {
+            flex-direction: column;
+            align-items: center
+      }
+    }
+    
